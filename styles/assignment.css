@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+/* shared styles */
+    .display-flex{
+        display: flex;
+    }
+
+  .text-primary{
+    color: orange;
+  } 
+  .tex-pr{
+    color: skyblue;
+  } 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+
+}
+.section-title{
+    font-size: 3.9rem;
+    font-weight: 700;
+}
+
+/* headerstyles */
+
+/* navbar retated styles */
+.navber{
+   
+    justify-content: center;
+   align-items: center;
+}
+.nav-title{
+
+} 
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: orange;
+}
+.navbar, .banner{
+    max-width: 1400px;
+    margin: o auto;
+}
+.nav-a{
+    color: skyblue;
+}
+.nav-b{
+    color: #05D4DF;
+}
+.nav-c{
+    color: #5D58EF;
+}
+.nav-bt{
+   background-color: orange;
+   color: #FFFFFF;
+    border-radius: 12px;
+}
+/* team and feature related style */
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+}
+.our-features{
+    margin-left: 50px;
+    max-width: 640px;
+}
+
+.quick-list{
+    font-weight: 500;
+    
+}
+.btn-primary{
+   background-color: #111111 ;
+   color: #FFFFFF;
+   
+   border-radius: 12px;
+}
+
+/* some releted syle */
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 360px;
+    height: 470px;
+    border-radius: 18px;
+    gap: 28px;
+    
+}
+.fact-number{
+    
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+ .fact-name{
+    font-size: 1.0rem;
+     font-weight: 600;
+     margin-top: 5px;
+     margin-bottom: 10px;
+     
+ }   
+    
+.fact-card{
+    border: 1px solid #DEF5FF;
+    width: 367px;
+    height: 476px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 576px) {
+    .teams{
+        flex-direction: column;
+
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-features{
+        margin-left: 20px;
+    }
+}
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin-left: 50px auto;
+    }
+    
+}
