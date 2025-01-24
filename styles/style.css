@@ -396,9 +396,7 @@ main > section{
     margin-top: 50px;
     margin-left: 60px;
   }
-  *{
-    overflow-x: hidden;
-  }
+  
 .footer{
     width: 800px;
 }
